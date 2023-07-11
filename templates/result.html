@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title> Results </title>
+<script src="https://cdn.tailwindcss.com"></script>
+
+{% endblock head %}
+
+
+{% block body %}
+
+{% for i,j in data.items  %}
+
+    <p> {{i}}      {{j}}  </p>
+
+{% endfor %}
+
+
+{% endblock body %}

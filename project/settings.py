@@ -32,6 +32,8 @@ DATA_EXPIRATION_MINUTES = 10    #Timeout in minutes
 
 OPENWEATER_API_KEY = '5e3e87e0e92f0e0d0e14f6dc59a2b111'
 
+
+
 # Application definition
 
 INSTALLED_APPS = [
